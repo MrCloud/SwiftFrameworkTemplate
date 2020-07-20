@@ -12,6 +12,7 @@ replace "FRAMEWORKBUNDLEIDENTIFIER" "{{ cookiecutter.bundle_identifier }}"
 replace "FRAMEWORKFULLNAME" "{{ cookiecutter.full_name }}"
 replace "FRAMEWORKEMAIL" "{{ cookiecutter.email }}"
 replace "FRAMEWORKGITHUBNAME" "{{ cookiecutter.github_name }}"
+replace "FRAMEWORKNAMEPREFIX" "{{ cookiecutter.github_prefix }}"
 replace "FRAMEWORKHOMEPAGE" "{{ cookiecutter.homepage }}"
 replace "FRAMEWORKTWITTER" "{{ cookiecutter.twitter }}"
 
@@ -25,6 +26,4 @@ rm -rf FRAMEWORKNAME.bak
 rm -rf "{{ cookiecutter.name }}"
 mv "{{ cookiecutter.name }}.bak" "{{ cookiecutter.name }}"
 
-rm -rf "{{ cookiecutter.name }}/Carthage"
-rm -rf "{{ cookiecutter.name }}/vendor"
 mv "{{ cookiecutter.name }}/.gitignore" "{{ cookiecutter.name }}/_gitignore"

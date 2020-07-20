@@ -1,11 +1,12 @@
 {
     "name": "Framework",
-    "summary": "cookiecutter bootstrap template for swift framework",
+    "summary": "cookiecutter bootstrap template for swift frameworks @Adeo",
     "version": "0.0.1",
-    "bundle_identifier": "me.rahulkatariya",
-    "full_name": "Rahul Katariya",
-    "email": "rahulkatariya@me.com",
-    "github_name": "RahulKatariya",
-    "homepage": "http://rahulkatariya.me",
-    "twitter": "rahulkatariya91"
+    "bundle_identifier": "com.adeo",
+    "full_name": "Florian PETIT",
+    "email": "florian.petit@ext.leroymerlin.fr",
+    "github_name": "adeo",
+    "github_prefix": "lmfr--app-leroy-merlin--",
+    "homepage": "http://github.com/adeo/",
+    "twitter": "Florian_MrCloud"
 }

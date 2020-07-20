@@ -3,7 +3,7 @@
 //  FRAMEWORKNAME
 //
 //  Created by FRAMEWORKFULLNAME on 01/04/19.
-//  Copyright © 2019 FRAMEWORKGITHUBNAME. All rights reserved.
+//  Copyright © 2020 FRAMEWORKGITHUBNAME. All rights reserved.
 //
 
 import Quick

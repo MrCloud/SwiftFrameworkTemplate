@@ -85,7 +85,7 @@ import PackageDescription
 let package = Package(
     name: "Hello{{ cookiecutter.name }}",
     dependencies: [
-        .package(url: "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git", .upToNextMajor(from: "{{ cookiecutter.version }}"))
+        .package(url: "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.github_prefix }}{{ cookiecutter.name }}.git", .upToNextMajor(from: "{{ cookiecutter.version }}"))
     ],
     targets: [
         .target(name: "Hello{{ cookiecutter.name }}", dependencies: ["{{ cookiecutter.name }}"])
@@ -110,7 +110,7 @@ $ git init
 - Add {{ cookiecutter.name }} as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
 ```bash
-$ git submodule add https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.name }}.git
+$ git submodule add https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.github_prefix }}{{ cookiecutter.name }}.git
 $ git submodule update --init --recursive
 ```
 
